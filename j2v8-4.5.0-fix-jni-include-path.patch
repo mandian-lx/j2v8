@@ -1,0 +1,13 @@
+--- J2V8-4.5.0/jni/com_eclipsesource_v8_V8Impl.cpp.uv	2016-07-29 18:47:07.000000000 +0200
++++ J2V8-4.5.0/jni/com_eclipsesource_v8_V8Impl.cpp	2017-04-03 18:57:32.461912472 +0200
+@@ -19,8 +19,8 @@
+ #include "com_eclipsesource_v8_V8Impl.h"
+ 
+ #ifdef NODE_COMPATIBLE
+-  #include <deps/uv/include/uv.h>
+-  #include <node.h>
++  #include <uv.h>
++  #include <node/node.h>
+ #endif
+ 
+ #pragma comment(lib, "userenv.lib")
